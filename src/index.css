@@ -4,3 +4,7 @@
   box-sizing: border-box;
   font-family: "Karla", sans-serif;
 }
+
+html {
+  background-color: #e5e5e5;
+}
