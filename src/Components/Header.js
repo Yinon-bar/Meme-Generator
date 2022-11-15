@@ -4,9 +4,9 @@ import trollImg from "../../src/Assets/Troll Face.png";
 function Header() {
   return (
     <header className="Header">
-      <img src={trollImg} width="60px" alt="" />
-      <h2>Header</h2>
-      <h4>React Course - Project 3</h4>
+      <img className="img" src={trollImg} alt="" />
+      <h2 className="headerTitle">Header</h2>
+      <h4 className="headerPtoject">React Course - Project 3</h4>
     </header>
   );
 }
