@@ -1,15 +1,32 @@
 .Header {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   height: 65px;
   background: linear-gradient(90deg, #672280 1.18%, #a626d3 100%);
   border: 1px solid #000000;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   color: #fff;
-  padding: 20px;
+  padding: 10px 300px;
 }
 
-.Header .img {
+.Header .logo {
+  align-items: center;
+  display: flex;
+  height: inherit;
+  padding: 10px 0px;
+}
+
+.Header .logo .img {
+  overflow: hidden;
   height: 100%;
   margin-right: 1rem;
+}
+
+.Header .logo .headerTitle {
+  font-size: 1.6rem;
+}
+.Header .headerPtoject {
+  font-weight: 500;
+  font-size: 1.2rem;
 }
